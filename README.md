@@ -31,5 +31,5 @@ It uses OpenCV to validate expected images versus actual images. To create those
 
 ## Post the ISO
 
-```sudo openqa-client isos post DISTRI=fedora VERSION="*" ISO=Fedora-Workstation-Live-x86_64-Rawhide-20210729.n.0.iso ARCH=x86_64 FLAVOR=Workstation-live-iso```
+```openqa-client isos post DISTRI=fedora VERSION="*" ISO=Fedora-Workstation-Live-x86_64-Rawhide-20210729.n.0.iso ARCH=x86_64 FLAVOR=Workstation-live-iso```
  
