@@ -23,7 +23,8 @@ It uses OpenCV to validate expected images versus actual images. To create those
 
 ## Light version (example) 
 - https://pagure.io/fork/endegraaf/fedora-qa/os-autoinst-distri-fedora/blob/master/f/templates-light.fif.json
-- After that use the fifloader.py to update your OpenQA installation.
+- After that use the fifloader.py to update your OpenQA installation. 
+- ```python ./fifloader.py --load <your template file.fif.json>```
 
 ## Clone a Test Job from Fedora
 ```sudo openqa-clone-job --from openqa.fedoraproject.org 937916 --skip-chained-deps _SKIP_POST_FAIL_HOOKS=1```
