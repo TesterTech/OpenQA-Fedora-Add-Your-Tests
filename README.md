@@ -33,3 +33,5 @@ It uses OpenCV to validate expected images versus actual images. To create those
 
 ```openqa-client isos post DISTRI=fedora VERSION="*" ISO=Fedora-Workstation-Live-x86_64-Rawhide-20210729.n.0.iso ARCH=x86_64 FLAVOR=Workstation-live-iso```
  
+## Workflow of adding tests
+![4 simple steps to add a new test](openQA-entities-FIF-loader-1.png)
